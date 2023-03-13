@@ -1,4 +1,4 @@
-package org.choo.gallery.backend.item.controller;
+package org.choo.gallery.backend.controller;
 
 import org.choo.gallery.backend.entity.Item;
 import org.choo.gallery.backend.repostory.ItemRepository;
