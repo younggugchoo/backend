@@ -15,5 +15,7 @@ public class Item {
 
     private String imgPath;
     private int price;
+
+    @Column(name="discountPer")
     private int discountPer;
 }

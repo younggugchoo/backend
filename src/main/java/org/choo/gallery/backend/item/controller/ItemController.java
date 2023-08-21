@@ -18,7 +18,9 @@ public class ItemController {
     @GetMapping("/api/items")
     public List<Item> getItems(){
 
+        //aaa
         List<Item> items = itemRepository.findAll();
+
         return items;
 
     }
