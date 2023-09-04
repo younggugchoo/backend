@@ -1,3 +1,9 @@
+buildscript {
+	dependencies {
+		classpath "org.springframework.boot:spring-boot-gradle-plugin:3.0.3" // Use the version that matches your requirements
+	}
+}
+
 plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.0.4'
@@ -14,6 +20,9 @@ configurations {
 	}
 }
 
+
+
+
 repositories {
 	mavenCentral()
 }
@@ -21,12 +30,16 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	implementation 'mysql:mysql-connector-java:8.0.32'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
+
+
 
 }
 
