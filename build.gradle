@@ -1,8 +1,4 @@
-buildscript {
-	dependencies {
-		classpath "org.springframework.boot:spring-boot-gradle-plugin:3.0.3" // Use the version that matches your requirements
-	}
-}
+
 
 plugins {
 	id 'java'
