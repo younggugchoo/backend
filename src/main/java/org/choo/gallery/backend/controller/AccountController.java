@@ -24,7 +24,7 @@ public class AccountController {
         if (member !=null )
         return member.getId();
 
-        return 0;
+        //return 0;
     }
 
 }
